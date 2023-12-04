@@ -418,4 +418,27 @@ transform: rotate(45deg);/************/
 .plan-details{
   font-size:1.6rem;
   text-align: center;
+  margin-top: 2.5rem;
+}
+
+.feature-title{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text{
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.feature-icon{
+  color: #e67e22;
+  background-color: #fdf2e9;
+  margin-bottom: 1.8rem;
+  height: 3.4rem;
+  width: 3.4rem;
+  padding: 1.6rem; /****??????***/
+  border-radius: 50%;
 }
