@@ -5,9 +5,6 @@
 }
 
 html {
-    /* font-size: 10px; */
-    /* 10px / 16px = 0.625 = 62.5% */
-    /* Percentage of user's browser font-size setting */
     font-size: 62.5%;
   }
   
@@ -107,7 +104,6 @@ body {
 .btn,.btn:link,.btn:visited{
    display: inline-block;
    text-decoration: none;
-    
    border: none;
    cursor: pointer;
    font-family: inherit;
@@ -116,7 +112,7 @@ body {
    font-weight: 600;
    padding: 1.6rem 3.2rem;
    border-radius: 10px;
-   margin-right: 3rem;
+   transition: all 0.3s;
 }
 
 .btn--full:link,.btn--full:visited{
