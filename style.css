@@ -82,7 +82,7 @@
 .delivered-meals{
     display: flex;
     align-items: center;
-    gap: 1.6 rem;
+    gap: 1.6rem;
     margin-top: 8rem;
 }
 
@@ -335,7 +335,7 @@
 }
 
 .gallery-item img:hover{
-  transform: scale(1.1) rotate(-15deg) ;
+  transform: scale(1.1) ;
   
 }
 
@@ -349,7 +349,6 @@
 
 .princing-plan {
   border-radius: 11px;
-
   width: 75%;
 }
 
@@ -357,7 +356,7 @@
 .princing-plan--starter{
   justify-self: end;
   border:3px solid #fdf2e9;
-  padding: 4rem;
+  padding: 4.6rem;
 }
 .plan-header{
   text-align: center;
@@ -370,6 +369,7 @@
   font-weight: 600;
   font-size: 2rem;
   margin-bottom: 3.2rem;
+  letter-spacing: 0.75;/*******/
 }
 
 .plan-price{
@@ -387,6 +387,7 @@
 
 .plan-text{
   font-size: 1.6rem;
+  line-height: 1.6;
   color: #6f6f6f;
 }
 
@@ -456,7 +457,7 @@ transform: rotate(45deg);/************/
 /*  background-color: #e67e22; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 12px;
-  background-image: linear-gradient(to right bottom, #eb984e, #ee9f5a);
+  background-image: linear-gradient(to right bottom,#eb984e, #e67e22);
   overflow: hidden;
 }
 
@@ -516,9 +517,9 @@ transform: rotate(45deg);/************/
 .cta-img-box{
   background-image: linear-gradient(
     to right bottom,
-    rgba(192, 121, 59, 0.438),
-    rgba(235, 162, 94, 0.541)
-    ), url("img/gallery/gallery-12.jpg");
+    rgba(235, 151, 78, 0.35),
+    rgba(230, 125, 34, 0.35)
+    ), url("img/food.jpg");
   
   background-size: cover; 
   background-position: center; 
@@ -565,3 +566,34 @@ transform: rotate(45deg);/************/
   margin-top: 5.8rem;
 }
 
+.footer-heading{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4rem;
+}
+
+.contacts{
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-style: normal;
+}
+
+.address{
+  margin-bottom: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited{
+  color: #767676;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer-nav{
+  list-style: none;
+  display: flex ;
+  flex-direction: column;/*******/
+  gap:2.4rem;
+  font-size:1.6rem;
+}
