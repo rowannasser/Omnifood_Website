@@ -443,3 +443,125 @@ transform: rotate(45deg);/************/
   padding: 1.6rem; /****??????***/
   border-radius: 50%;
 }
+
+/****** cta section********/
+
+.section-cta{
+  padding:4.8rem 0 12.8rem;
+}
+
+.cta{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+/*  background-color: #e67e22; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  background-image: linear-gradient(to right bottom, #eb984e, #ee9f5a);
+  overflow: hidden;
+}
+
+.cta-text-box{
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem ;
+  color: #45260a;
+}
+
+.cta-text{
+  font-size: 1.8rem;
+  margin-bottom: 4.8rem;
+  line-height: 1.8;
+}
+
+.cta .heading-secondary{
+   color: inherit;
+   margin-bottom: 3.2rem;
+}
+
+.cta-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label{
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.4rem;
+}
+
+
+.cta-form input,
+.cta-form select {
+  background-color: #fdf2e9;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  border-radius: 10px;
+  padding: 1.2rem;
+  width: 100%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder{
+  color: #aaa;
+}
+
+.cta *:focus{
+  outline: none;/*****/
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+.cta-img-box{
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(192, 121, 59, 0.438),
+    rgba(235, 162, 94, 0.541)
+    ), url("img/gallery/gallery-12.jpg");
+  
+  background-size: cover; 
+  background-position: center; 
+  width: 100%;
+}
+
+/****** footer *****/
+
+.footer{
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo{
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links{
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon{
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #6f6f6f;
+}
+
+.copyright{
+  color: #767676;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  margin-top: 5.8rem;
+}
+
