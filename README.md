@@ -1,6 +1,7 @@
 # Omnifood_Website
 
-Welcome to the Omnifood Website repository 😊. This is a simple website for a healthy food delivery service.
+Welcome to the Omnifood Website repository 😊.
+This is a simple website for a healthy food delivery service.
 
 
 ## Technologies Used :
